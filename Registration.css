@@ -1,0 +1,48 @@
+.registration-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .registration-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registration-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-container label {
+    margin-bottom: 10px;
+  }
+  
+  .registration-container input[type="text"],
+  .registration-container input[type="email"],
+  .registration-container input[type="tel"],
+  .registration-container input[type="password"],
+  .registration-container select,
+  .registration-container input[type="file"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
